@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2vh;
+}
+.container {
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.div {
+  width: 10%;
+  background-image: url("rasm.jpg");
+  height: 90vh;
+  border-radius: 60px;
+  background-size: cover;
+  gap: 100px;
+  transition: all 1.5s;
+}
+.width {
+  transition: all 1.5s;
+
+  width: 50%;
+}
