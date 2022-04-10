@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(75, 225, 245);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: serif;
+  padding: 10vw;
+  text-align: center;
+}
+.container {
+  width: 80vw;
+  display: flex;
+  background-color: rgb(252, 252, 55);
+  gap: 5px;
+  padding: 50px 30px;
+  align-items: center;
+}
+.one {
+  font-size: 84px;
+  font-weight: 600;
+  color: black;
+  padding: 30px;
+  border: 5px solid green;
+  width: 20%;
+  padding: 60px;
+}
+.plus {
+  font-size: 52px;
+  font-weight: 600;
+  width: 5%;
+}
+.two {
+  font-size: 84px;
+  font-weight: 600;
+  color: black;
+  padding: 60px;
+  border: 5px solid blue;
+  width: 20%;
+}
+.teng {
+  font-size: 52px;
+  font-weight: 600;
+  width: 5%;
+}
+.inp {
+  width: 25%;
+  border: 3px solid blue;
+  height: 50px;
+}
+.inp::placeholder {
+  font-size: 32px;
+}
+.check {
+  height: 50px;
+  font-size: 30px;
+  padding: 5px 10px 10px 15px;
+  width: 15%;
+  color: white;
+  background-color: red;
+}
