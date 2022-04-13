@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(2, 3, 3);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: serif;
+}
+.container {
+  width: 80vw;
+  padding: 50px 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: blue;
+}
+.head {
+  color: white;
+  font-size: 44px;
+  font-weight: 600;
+  padding: 10px;
+}
+.main {
+  width: 60vw;
+  display: flex;
+}
+.input {
+  padding: 10px;
+  width: 70%;
+}
+.add {
+  color: white;
+  background-color: red;
+  border-style: none;
+  width: 30%;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+.content_input {
+  background-color: transparent;
+  border-style: none;
+  color: black;
+  font-weight: 600;
+  outline: none;
+}
+.element {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  background-color: rgb(76, 202, 76);
+  color: rgb(43, 30, 56);
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 540;
+  border-radius: 25px;
+  border-style: none;
+  background-color: yellow;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
